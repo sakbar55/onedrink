@@ -21,6 +21,8 @@ gem 'omniauth'
 gem 'font-awesome-sass'
 gem 'omniauth-facebook'
 
+#Geo location
+gem 'geocoder'
 # Bootstrap
 gem 'bootstrap-sass', '~> 3.3.1'
 
