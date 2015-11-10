@@ -2,28 +2,28 @@
 
 <p>
   <strong>Name:</strong>
-  <%= @profile.name %>
+  <%= @profiles.name %>
 </p>
 
 <p>
   <strong>Age:</strong>
-  <%= @profile.age %>
+  <%= @profiles.age %>
 </p>
 
 <p>
   <strong>About me:</strong>
-  <%= @profile.about_me %>
+  <%= @profiles.about_me %>
 </p>
 
 <p>
   <strong>Profile image:</strong>
-  <%= @profile.profile_image_id %>
+  <%= @profiles.profile_image_id %>
 </p>
 
 <p>
   <strong>User:</strong>
-  <%= @profile.user_id %>
+  <%= @profiles.user_id %>
 </p>
 
-<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Edit', edit_profile_path(@profiles) %> |
 <%= link_to 'Back', profiles_path %>
