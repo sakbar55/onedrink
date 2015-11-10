@@ -10,12 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
 
+
 .coral {
-  color: #f0243c;
+  color: #F03C02;
 }
 
 .plum {
@@ -27,31 +28,14 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #f0243c;
+  color: #F03C02;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #ffffff;
+  color: #616161;
 }
 
 .navbar-default {
-    background-color: #1f0d18;
+    background-color: #1C0113;
     border-color: #e7e7e7;
-}
-
-section#contact {
-    background-color: #1f0d18;
-  }
-
-.text-muted {
-    color: #000000;
-}
-
-.navbar-default .navbar-brand {
-    color: #ffffff;
-}
-
-.text-muted {
-    color: #000000;
-    font-weight: 200;
 }

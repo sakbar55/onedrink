@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -42,7 +43,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #dad1e3;
+    color: #A30006;
 }
 
 h1,
@@ -126,7 +127,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #f0243c;
+    background-color: #F03C02;
 }
 
 .btn-xl:hover,
@@ -134,9 +135,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #ffffff;
-    color: #f0243c;
-    background-color: #ffffff;
+    border-color: ##ffffff;
+    color: #fff;
+    background-color: #A30006;
 }
 
 .btn-xl:active,
@@ -328,7 +329,6 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    color: #000000;
 }
 
 section h3.section-subheading {
@@ -338,7 +338,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-    color: #00000;
 }
 
 @media(min-width:768px) {
@@ -661,7 +660,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #ffffff;
+    color: #fff;
 }
 
 section#contact .form-group {
@@ -750,8 +749,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #ffffff;
-    background-color: #1C0113;
+    color: #fff;
+    background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -760,7 +759,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #f0243c;
+    background-color: #fed136;
 }
 
 .btn:focus,
