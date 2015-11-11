@@ -16,6 +16,7 @@ gem 'omniauth'
 gem 'font-awesome-sass'
 gem 'omniauth-facebook'
 gem 'dotenv-rails'
+gem 'sqlite3'
 
 #Geo location
 gem 'geocoder'
