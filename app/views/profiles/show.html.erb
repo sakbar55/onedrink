@@ -1,29 +1,33 @@
 <p id="notice"><%= notice %></p>
 
+<div class="row">
+<div class="col-lg-6">
 <p>
   <strong>Name:</strong>
-  <%= @profiles.name %>
+  <%= @profile.name %>
 </p>
 
 <p>
   <strong>Age:</strong>
-  <%= @profiles.age %>
+  <%= @profile.age %>
 </p>
 
 <p>
   <strong>About me:</strong>
-  <%= @profiles.about_me %>
+  <%= @profile.about_me %>
 </p>
 
 <p>
   <strong>Profile image:</strong>
-  <%= @profiles.profile_image_id %>
+  nil
 </p>
 
 <p>
   <strong>User:</strong>
-  <%= @profiles.user_id %>
+  <%= current_user.email %>
 </p>
+</div>
+</div>
 
 <%= link_to 'Edit', edit_profile_path(@profiles) %> |
 <%= link_to 'Back', profiles_path %>
