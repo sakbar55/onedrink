@@ -1,40 +1,29 @@
-<p id="notice"><%= notice %></p>
-<div class="row">
-      <div class="col-lg-12">
-          <h1 class="page-header">
-Profiles
-</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Age</th>
-      <th>About me</th>
-      <th>Profile image</th>
-      <th>User</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center bordering">
+      <h2 class="section-heading f coral title">Start Drinking!</h2>
+    </div>
+  </div>
+  <div class="col-lg-12 text-center">
+    <p><%= @profile.name %></p>
+    <p><%= @profile.age %></p>
+    <p><%= @profile.about_me %></p>
+  </div>
 </div>
 
-  <tbody>
-    <% @profiles.each do |profile| %>
-      <tr>
-        <td><%= profile.name %></td>
-        <td><%= profile.age %></td>
-        <td><%= profile.about_me %></td>
-        <td><%= profile.profile_image_id %></td>
-        <td><%= profile.user_id %></td>
-        <td><%= link_to 'Show', profile %></td>
-        <td><%= link_to 'Edit', edit_profile_path(profile) %></td>
-        <td><%= link_to 'Destroy', profile, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
 
-<br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 text-center">
+      <%= link_to martini_profiles_path do %>
+        <%= image_tag "martini.png" %>
+      <% end %>
+    </div>
 
-<%= link_to 'New Profile', new_profile_path %>
+    <div class="col-lg-6 text-center">
+      <%= link_to coffee_profiles_path do %>
+        <%= image_tag "coffee.jpg" %>
+      <% end %>
+    </div>
+  </div>
+</div>

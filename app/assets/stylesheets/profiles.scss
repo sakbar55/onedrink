@@ -1,3 +1,39 @@
 // Place all the styles related to the profiles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.bordering {
+  border-bottom: solid 4px #cf0b80;
+  background-color: #1C0113;
+  border-top: solid 8px #1C0113;
+  font-weight: 500;
+}
+
+.txt {
+  font-size: 40px
+}
+
+.center-block {
+    display: inline;
+    margin-left: 20em;
+    margin-right: 20em;
+ }
+
+.color
+{
+  background-color: #1C0113;
+}
+
+
+.f {
+  font-family: 'Kaushan Script';
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: inherit;
+}
