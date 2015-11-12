@@ -42,41 +42,42 @@
 }
 
 .navbar-default {
-    background-color: #1f0d18;
-    border-color: #e7e7e7;
+  background-color: #1f0d18;
+  border-color: #e7e7e7;
 }
 
 section#contact {
-    background-color: #1f0d18;
+  background-color: #1f0d18;
   }
 
 .text-muted {
-    color: #000000;
+  color: #000000;
 }
 
 .navbar-default .navbar-brand {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .text-muted {
-    color: #000000;
-    font-weight: 200;
+  color: #000000;
+  font-weight: 200;
 }
 
 .drink_img {
  max-width: 424px;
-max-height: 424px;
-margin: 10px;
+ max-height: 424px;
+ margin: 10px;
+}
 
 .inner_item {
- width: 446px;
-display: inline-block;
-float: left;
-border-radius: 3px;
-border: solid #cacaca;
-background: #fff;
-text-align: center;
-overflow: hidden;
+  width: 446px;
+  display: inline-block;
+  float: left;
+  border-radius: 3px;
+  border: solid #cacaca;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
   border-width: 1px;
   line-height: 0px;
   margin-left: 10px;
@@ -88,7 +89,7 @@ overflow: hidden;
     margin-right: 20em;
  }
 
- .span12{
+ .span12 {
     -moz-box-shadow: 0 0 2px black;
     -webkit-box-shadow: 0 0 2px black;
     box-shadow: 0 0 2px black;
